@@ -1,0 +1,29 @@
+{
+    "name": "yosmy/ban",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "ext-mongodb": "*",
+        "ext-json": "*",
+        "mongodb/mongodb": "~1"
+    },
+    "require-dev": {
+        "symsonte/framework": "@dev",
+        "symfony/debug": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Ban\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
